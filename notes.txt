@@ -1,0 +1,1 @@
+agregar lógica externa complica el cierre de timming en el top level, se debe mover a modulo 1 o módulo 2

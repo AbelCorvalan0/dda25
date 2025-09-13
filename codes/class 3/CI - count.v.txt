@@ -1,0 +1,12 @@
+module count
+(
+
+	parameter NB_SW      =  3,
+	parameter NB_COUNTER = 32,
+	parameter R0 =    1000000,
+	parameter R1 =   10000000,
+	parameter R2 =     256893,
+	parameter R3 =     
+
+
+)
