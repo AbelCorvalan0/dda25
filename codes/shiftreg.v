@@ -8,8 +8,11 @@ Author: Corvalan, Abel.
 */
 
 module shiftreg(
-    output [] outshif,
-    input  [] 
+    output [3:0] o_led,
+
+    input      i_valid, 
+    input      i_reset,
+    input        clock;
 );
 
 endmodule

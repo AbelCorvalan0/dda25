@@ -8,10 +8,11 @@ Author: Corvalan, Abel.
 */
 
 module count (
-    output      o_valid, 
+    output      o_valid,
+    
     input [2:0] i_sw   ,
     input       i_reset,
-    input      clock
+    input       clock  
 );
 
 endmodule

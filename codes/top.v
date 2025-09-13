@@ -11,8 +11,7 @@ module top(
     // Define output variables.
     output [4:0] o_led  ,
     output [4:0] o_led_b,
-    output [4:0] o_led_g,
-    
+    output [4:0] o_led_g,  
 
     input  [3:0] i_sw   ,
     input        i_reset,
