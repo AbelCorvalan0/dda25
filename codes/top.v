@@ -16,16 +16,27 @@ module top(
     input  [3:0] i_sw   ,
     input        i_reset,
     input        clock  ;
+);
 
 /****************************/
+// Instances.
 
-    count
-    count (
-    output      o_valid, 
-    input [2:0] i_sw   ,
-    input       i_reset,
-    input      clock
-    )
+count
+// Must add an instance name.
+u_count(
+    .o_valid (),
+    .i_sw    (i_sw[2:0]),
+    .i_reset (i_reset  ),
+    .clock   (clock    )
+);
+
+shiftreg
+// Must add an instance name.
+u_shiftreg(
+    .o_led   (),
+    .i_valid (), 
+    .i_reset (i_reset),
+    .clock   (clock  )
 );
 
 endmodule
